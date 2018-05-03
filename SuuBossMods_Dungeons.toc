@@ -1,0 +1,8 @@
+## Interface: 80000
+## Version 0.1
+## Title: SuuBossMods_Dungeons
+## Notes: Module for BFA Dungeon for SuuBossMods.
+## Dependency: SuuBossMods
+## Author: Suu
+
+dungeons.xml
