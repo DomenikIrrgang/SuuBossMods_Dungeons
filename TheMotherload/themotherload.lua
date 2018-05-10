@@ -1,0 +1,1 @@
+TheMotherload = SuuBossMods.dungeonModuleLoader:newModule("The Motherload", 1594)

@@ -1,16 +1,9 @@
 RageFireModule = SuuBossMods.dungeonModuleLoader:newModule("Ragefire Chasm", 389)
---[[
-function RageFireModule:init() 
+
+--[[function RageFireModule:load() 
     self:addEventCallback("SPELL_CAST_START", 116670, RageFireModule.startCast)
     self:addEventCallback("SPELL_CAST_SUCCESS", 116670, RageFireModule.stopCast)
-    print("init")
-    self:addOption("Announce CastX", "Will print a message when cast X is beeing cast.", "toggle", RageFireModule.getAnnounceCastX, RageFireModule.setAnnounceCastX)
-    self:addOption("Announce CastX Duration", "Duration of the message to be shown", "range", RageFireModule.getAnnounceCastXDuration, RageFireModule.setAnnounceCastXDuration, "full", 1, 3, 0.1)
-end]]--
-
-function RageFireModule:unload()
-   
-end
+end--]]
 
 function RageFireModule:getAnnounceCastX()
     return self:getSettings().announceCastX
@@ -45,3 +38,6 @@ function SuuBossMods_DungeonModule:getDefaultSettings()
         spellData = {},
     }
 end
+
+RageFireModule:addOption("Announce CastX", "Will print a message when cast X is being cast.", "toggle", RageFireModule.getAnnounceCastX, RageFireModule.setAnnounceCastX)
+RageFireModule:addOption("Announce CastX Duration", "Duration of the message to be shown", "range", RageFireModule.getAnnounceCastXDuration, RageFireModule.setAnnounceCastXDuration, "full", 1, 3, 0.1)

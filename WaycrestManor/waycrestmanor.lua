@@ -1,0 +1,1 @@
+WaycrestManor = SuuBossMods.dungeonModuleLoader:newModule("Waycrest Manor", 1862)

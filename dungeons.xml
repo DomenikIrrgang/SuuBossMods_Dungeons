@@ -1,4 +1,13 @@
 <Ui xsi:schemaLocation="http://www.blizzard.com/wow/ui/ ..\FrameXML\UI.xsd">
   <Include file="ataldazar\ataldazar.xml"/>
+  <Include file="themotherload\themotherload.xml"/>
+  <Include file="siegeofboralus\siegeofboralus.xml"/>
+  <Include file="kingsrest\kingsrest.xml"/>
+  <Include file="templeofsethraliss\templeofsethraliss.xml"/>
+  <Include file="freehold\freehold.xml"/>
+  <Include file="shrineofthestorm\shrineofthestorm.xml"/>
+  <Include file="toldagor\toldagor.xml"/>
+  <Include file="waycrestmanor\waycrestmanor.xml"/>
+  <Include file="theunderrot\theunderrot.xml"/>
   <Include file="ragefirechasm\ragefirechasm.xml"/>
 </Ui>

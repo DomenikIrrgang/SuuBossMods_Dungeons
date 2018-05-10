@@ -1,0 +1,1 @@
+TheUnderrot = SuuBossMods.dungeonModuleLoader:newModule("The Underrot", 1841)

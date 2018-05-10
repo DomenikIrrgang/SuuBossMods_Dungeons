@@ -1,0 +1,1 @@
+ShrineOfTheStorm = SuuBossMods.dungeonModuleLoader:newModule("Shrine of the Storm", 1864)

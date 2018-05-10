@@ -1,0 +1,1 @@
+SiegeOfBoralus = SuuBossMods.dungeonModuleLoader:newModule("Siege of Boralus", 1822)

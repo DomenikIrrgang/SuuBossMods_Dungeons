@@ -1,0 +1,1 @@
+TolDagor = SuuBossMods.dungeonModuleLoader:newModule("Tol Dagor", 1771)

@@ -1,0 +1,1 @@
+KingsRest = SuuBossMods.dungeonModuleLoader:newModule("Kings' Rest", 1762)

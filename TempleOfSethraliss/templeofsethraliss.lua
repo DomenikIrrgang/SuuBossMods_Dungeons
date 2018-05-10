@@ -1,0 +1,1 @@
+TempleOfSethraliss = SuuBossMods.dungeonModuleLoader:newModule("Temple of Sethraliss", 1877)

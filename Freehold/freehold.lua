@@ -1,0 +1,1 @@
+Freehold = SuuBossMods.dungeonModuleLoader:newModule("Freehold", 1754)
