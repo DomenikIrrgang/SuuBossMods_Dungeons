@@ -1,0 +1,1 @@
+AtalDazar = SuuBossMods.dungeonModuleLoader:newModule("Atal'Dazar", 1763)
